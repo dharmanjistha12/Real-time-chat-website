@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcom to my private ChatApp</title>
+	<link rel="stylesheet" href="client.css">
+	<link rel="stylesheet" media="screen and (max-width: 540px)" href="clientPhone.css">
+	<link rel="stylesheet" media="screen and (max-width: 1170px)" href="clientTab.css">
+	<script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+	<script defer src="client.js"></script>
+</head>
+
+<body>
+	<nav>
+		<img src="../icon.jpg" alt="">
+		<h2>Welcome to minChat!</h2>
+	</nav>
+	<div id="prompt">
+		<input type="text" id="prompton" class="msgBox" placeholder="Enter your name">
+		<button type="submit" id="join" class="btn">Join</button>
+	</div>
+	<div id="box">
+		<div class="container"></div>
+		<div class="send">
+			<form action="#" id="sendarea">
+				<input type="text" class="msgBox" id="msgInp">
+				<button type="submit" class="btn">Send</button>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

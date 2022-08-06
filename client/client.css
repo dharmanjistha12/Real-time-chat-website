@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+		background-image: -webkit-linear-gradient(black,rgb(78, 77, 77) );
+		height: 100vh;
+}
+nav{
+	background-color: rgb(83, 79, 79);
+	height: fit-content;
+	display: flex;
+}
+nav img{
+	margin-left: 14vw;
+	width: 10vh;
+	height: 10vh;
+}
+nav h2{
+	color:white;
+	margin-left: 3vw;
+	margin-top: 3vh;
+}
+.container{
+	background-color:cornsilk;
+	height: 60vh;
+	max-width: 950px;
+	margin: auto;
+    border-radius: 13px;
+	margin-top: 50px;
+}
+.message{
+    background-color: pink;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+	float: left;
+	clear: both;
+}
+.right{
+	float: right;
+	clear: both;
+}
+#sendarea{
+	display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1005px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 5vh;
+}
+#prompt{
+	margin: 5vh 0vh 5vh 24vh;
+}
+.msgBox{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+	text-indent: 20px;
+
+}
+.btn{
+	color: wheat;
+	background-image: linear-gradient(rgb(70, 0, 128),rgb(221, 27, 173));
+	margin: 0 7px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+	font-size: 1.2vw;
+}
